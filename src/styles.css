@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+}
+
+.mainBox {
+  background-color: white;  
+  max-width: 425px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 45px;
+  border-radius: 15px;
+}
