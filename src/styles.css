@@ -7,7 +7,77 @@ body {
   max-width: 425px;
   border: none;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 95px;
   padding: 45px;
-  border-radius: 15px;
+  border-radius: 30px;
+  background-color: #faf9c4;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+
+.searchFormInput {
+    margin: 0px 10px;
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+
+}
+
+.searchFormButton {
+    padding: 20px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: rgb(249, 127, 78);
+}
+
+.mainCity,.currentTime {
+    text-align: center;
+    
+}
+
+.mainCity {
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.currentTime {
+    font-size: 22px;
+    margin-top: 0px;
+}
+
+.current-Humidity-Data-two {
+    font-size: 19px;
+    position: relative ;
+    left: 280px;
+    bottom: 140px;
+}
+
+.currentCondtion, .currentHumidityData, .currentWindSpeedData{
+    color: rgb(251, 75, 6);
+}
+
+.currentWeather{
+ font-size: 60px;
+ position: relative ;
+ left: 140px;
+ bottom: 40px;
+}
+.weatherDegree{
+font-size: 22px;
+position: relative ;
+ left: 200px;
+ bottom: 100px;
+}
+.weatherEmoji {
+font-size: 65px;
+position: relative ;
+top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
 }
