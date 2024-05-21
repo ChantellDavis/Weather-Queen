@@ -3,40 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="/src/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/src/styles.css" />
     <title>Weather Queen</title>
   </head>
   <body>
     <div class="mainBox" id="main-box">
       <header>
-      <form class="searchForm" id="search-Form">
-        <input type="search" placeholder="enter the city" 
-        class="searchFormInput"
-        id="search-Form-Input"/>
-        <input type="submit" value="search" 
-        class="searchFormButton"
-        id="search-Form-Button"/>
-      </form>
-      <h1 class="mainCity" id="main-City">Paris</h1>
-      <p class="currentTime"id="current-Time">Monday 8:00</p>
-    </header>
-   <main> <p>
+        <form class="searchForm" id="search-Form">
+          <input
+            type="search"
+            placeholder="enter the city"
+            class="searchFormInput"
+            id="search-Form-Input"
+          />
+          <input
+            type="submit"
+            value="search"
+            class="searchFormButton"
+            id="search-Form-Button"
+          />
+        </form>
+        <h1 class="mainCity" id="main-City"></h1>
+        <p class="currentTime" id="current-Time"></p>
+      </header>
+      <main>
         <div class="currentWeatherData" id="current-Weather-Data">
-        <div class="weatherEmoji" id="weather-Emoji">🌤️</div>
-        <div class="currentWeather" id="current-Weather"> <strong>72</strong></div>
-        <div class="weatherDegree" id="weather-Degree">℉</div>
-    </div>
-       <div class="current-Humidity-Data-two">
-        <div class="currentCondtion" id="current-Condtion"> <strong>Sunny</strong></div>
-        <div class="currentHumidity" id="current-Humidity">humidity: <span class="currentHumidityData" id="current-Humidity-Data"> <strong>38%</strong></span></div>
-        <div class="currentWindSpeed" id="currentWindSpeed">Wind speed: <span class="currentWindSpeedData" id="current-Wind-Speed-Data"> <strong>34 km/h</strong></span>
+          <div class="weatherEmoji" id="weather-Emoji">🌤️</div>
+          <div class="currentWeather" id="current-Weather">72</div>
+          <div class="weatherDegree" id="weather-Degree">℉</div>
         </div>
-    </div> 
-        
-    </p>
-    </main>  
+        <div class="current-Humidity-Data-two">
+          <div>
+            <strong class="currentCondtion" id="current-Condtion"></strong>
+          </div>
+          <div class="currentHumidity" id="current-Humidity">
+            humidity:
+            <span>
+              <strong
+                class="currentHumidityData"
+                id="current-Humidity-Data"
+              ></strong
+            ></span>
+          </div>
+          <div class="currentWindSpeed" id="currentWindSpeed">
+            Wind speed:
+            <span>
+              <strong
+                class="currentWindSpeedData"
+                id="current-Wind-Speed-Data"
+              ></strong
+            ></span>
+          </div>
+        </div>
+      </main>
     </div>
-    
-    <footer> This project was coded by Chantell Davis open scourced by GitHub and hosted by Netlifty</footer>
+
+    <footer>
+      This project was coded by Chantell Davis open scourced by GitHub and
+      hosted by Netlifty
+    </footer>
+    <script src="/src/index.js"></script>
   </body>
 </html>
